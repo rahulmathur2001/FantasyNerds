@@ -1,0 +1,21 @@
+<section class="footer my-4" style="height: 300px;background-color: #e9ecef;">
+        <footer class="footer mt-auto py-3 bg-light">
+            <!-- <div class="container">
+          <span class="text-muted">Place sticky footer content here.</span>
+        </div> -->
+            <div></div>
+            <div class="container" style="height: 200px;">
+                <h1 class="mt-5">Thanks!! For Reading Our Blog</h1>
+                <p class="lead">Kindly Give us a Subscribe To Help the Creator out <br><code
+                        class="small">Made by</code>
+                    <code class="small"><i class="fas fa-bolt">Rahul Mathur</i></code>
+                <p>Back to <a href="index.html">Homepage</a><br></p>
+                <h3>You Can Also Contact Us On Our Social Media</h3>
+                <code class="small"><i class="fab fa-facebook-square fa-3x" style="color:black;"></i></code>
+                <code class="small"><i class="fab fa-linkedin fa-3x" style="color: black;"></i></code>
+                <code class="small"><i class="fab fa-instagram-square fa-3x" style="color: black;"></i></code>
+                <code class="small"><i class="fab fa-twitter-square fa-3x" style="color: black;"></i></code>
+
+                
+            </div>
+        </footer>

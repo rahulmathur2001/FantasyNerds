@@ -1,0 +1,238 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+
+    <title>FantasyNerd</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="shortcut icon" href="icon.jpg" />
+</head>
+
+<body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a href=""><img src="icon-removebg-preview.jpg" style="margin: 0px;padding: 0px; height: 30px;width: 30px;"></a>
+        <a class="navbar-brand" href="#">Fantasy Nerds</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#" target="_blank">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html" target="_blank">About</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        AUTHORS
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="fantasyauthors.html" target="_blank">Fantasy Autors</a>
+                        <!-- <a class="dropdown-item" href="#">Thriller Authors</a> -->
+                        <a class="dropdown-item" href="Mangaka.html" target="_blank">Mangaka's</a>
+                        <a class="dropdown-item" href="Comic.html" target="_blank">Comic Artist's</a>
+
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html" target="_blank">Contact us</a>
+                </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" id="searchpage" onkeyup="searchmypage()"
+                    placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form>
+            <div class="mx-2">
+                <!-- Button trigger modal -->
+                <button type="button" class="btn btn-outline-success" data-toggle="modal" data-target="#exampleModal">
+                    Subscribe
+                </button>
+
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">Enter Your Email To Subscriber</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <input class="form-control form-control-lg" type="Email" placeholder="Enter Your Email"
+                                    required>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                <button type="button" class="btn btn-outline-danger">Subscribe</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </nav>
+    <!-- crousal -->
+    <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+            <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <a href="review.html" target="_blank"><img style="opacity: 1.5; filter: brightness(0.5);" src="LOTR 2.jpg" class="d-block w-100" alt="..."></a>
+            
+                <div class="carousel-caption d-none d-md-block">
+                    <h5 style="color: #fff818; font-size: 1.5rem;">Lord Of The Rings</h5>
+                    <p>"One Book That Rules Them All"</p>
+                    <a href="review.html" target="_blank"><button type="button" class="btn btn-success">Book Review's</button></a>
+                    <a href="mangareview.html" target="_blank"><button type="button" class="btn btn-danger">Manga Review's</button></a>
+                    <a href="Comicsreview1.html "target="_blank"><button type="button" class="btn btn-warning">Comic's Review</button></a>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <a href="mangareview2.html" target="_blank"><img style="opacity: 1.5; filter: brightness(0.5);" src="back.png" class="d-block w-100" alt="..."></a>
+                <div class="carousel-caption d-none d-md-block">
+                    <h5 style="color: #fff818;font-size: 1.5rem;">Attack On Titan</h5>
+                    <p>"One Of The Best Current Manga"</p>
+                    <a href="review.html" target="_blank"><button type="button" class="btn btn-success">Book Review's</button></a>
+                    <a href="mangareview.html" target="_blank"><button type="button" class="btn btn-danger">Manga Review's</button></a>
+                    <a href="Comicsreview1.html "target="_blank"><button type="button" class="btn btn-warning">Comic's Review</button></a>
+                
+                </div>
+            </div>
+            <div class="carousel-item">
+                <a href="comicreview2.html" target="_blank"><img style="opacity: 1.5; filter: brightness(0.5);" src="invi.png" class="d-block w-100" alt="..."></a>
+                <div class="carousel-caption d-none d-md-block">
+                    <h5 style="color: #fff818;font-size: 1.5rem;">Invincible</h5>
+                    <p>"A Very Inovative SuperHero Comics"</p>
+                    <a href="review.html" target="_blank"><button type="button" class="btn btn-success">Book Review's</button></a>
+                    <a href="mangareview.html" target="_blank"><button type="button" class="btn btn-danger">Manga Review's</button></a>
+                    <a href="Comicsreview1.html" target="_blank"><button type="button" class="btn btn-warning">Comic's Review</button></a>
+                
+                </div>
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <!-- cards -->
+    <div class="container my-4">
+        <div class="row mb-2 mr-4">
+            <div class="col-md-6">
+                <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                    <div class="col p-4 d-flex flex-column position-static " >
+                        <strong class="d-inline-block mb-2 text-primary"><a href="Blog1.html" target="_blank">Fantasy World</a></strong>
+                        <h3 class="mb-0 " style="font-size: 1.2rem;">UpComing projects from Brandon Sanderson</h3>
+                        <div class="mb-1 text-muted">July 11</div>
+                        <p class="card-text mb-auto">Hey Brandon Sandeson & Fantasy Fans here is a list of Brandon
+                            Sandersons Upcoming Projects</p>
+                        <a href="Blog1.html" target="_blank" class="stretched-link">Continue reading</a>
+                    </div>
+                    <div class="col-auto d-none d-lg-block">
+                        <a href="Blog1.html" target="_blank"><img class="bd-placeholder-img" width="200" height="250" src="brandon.jpeg"
+                                alt="brandon"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div
+                    class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                    <div class="col p-4 d-flex flex-column position-static">
+                        <strong class="d-inline-block mb-2 text-success"><a href="Blog2.html" target="_blank">Most Awaited
+                                Books</a></strong>
+                        <h3 class="mb-0" style="font-size: 1.2rem;">Patrick Rothfuss's much awaited Book Release</h3>
+                        <div class="mb-1 text-muted">July 11</div>
+                        <p class="mb-auto">As confirmed by Amazon, Doors of Stone Release Date is set to be July 8,
+                            2021.</p>
+                        <a href="Blog2.html" target="_blank" class="stretched-link">Continue reading</a>
+                    </div>
+                    <div class="col-auto d-none d-lg-block">
+                        <a href="Blog2.html" target="_blank"><img class="bd-placeholder-img" width="300" height="250" src="DOS.jpg"
+                                alt="Door Of Stones"></a>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div
+                    class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                    <div class="col p-4 d-flex flex-column position-static">
+                        <a href="blog3.html" target="_blank"><strong class="d-inline-block mb-2 text-warning">Shonnen Jump</strong></a>
+                        <h3 class="mb-0" style="font-size: 1.2rem;">What One Piece ending could be</h3>
+                        <div class="mb-1 text-muted">July 14</div>
+                        <p class="mb-auto">The end of the manga One Piece is an enigmatic one, even to fans who were
+                            with Monkey D. Luffy from the beginning</p>
+                        <a href="blog3.html" target="_blank" class="stretched-link">Continue reading</a>
+                    </div>
+                    <div class="col-auto d-none d-lg-block">
+                        <a href="blog3.html" target="_blank"><img class="bd-placeholder-img" width="250" height="250" src="OP.png"
+                                alt="Door Of Stones"></a>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div
+                    class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                    <div class="col p-4 d-flex flex-column position-static">
+                        <a href="blog4.html" target="_blank"></a> <strong class="d-inline-block mb-2 text-success">Comics World</strong>
+                        <h3 class="mb-0" style="font-size: 1.2rem;">What The "BOYS" are like in comics</h3>
+                        <div class="mb-1 text-muted">July 15</div>
+                        <p class="mb-auto">The Amazon superhero series The Boys is based on a comic book series of the
+                            same name. Some things were changed in the comic-to-screen adaptation</p>
+                        <a href="blog4.html" target="_blank" class="stretched-link">Continue reading</a>
+                    </div>
+                    <div class="col-auto d-none d-lg-block">
+                        <img class="bd-placeholder-img" width="250" height="250" src="boys.jpg" target="_blank" alt="Door Of Stones">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <section class="foot " style="background-color: #212529; height: 75px; color: white;">
+        <footer class="container">
+            <p class="float-right"><a href="#" style="font-size: 1.5rem;">Back to top</a></p>
+            <p style="font-size: 1.5rem;">© 2020-2021 Fantasy Nerds, Inc. <a href=""
+                    style="font-size: 1.5rem;">Privacy</a> · <a href="">CopyRight</a></p>
+        </footer>
+    </section>
+
+</body>
+
+</html>
